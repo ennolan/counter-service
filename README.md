@@ -1,12 +1,23 @@
-# counter-service-exercise
-The repo for the counter service Python app. Home exercise.
+# counter-service
+The repo for the counter service Python app.
 
 Python service called "counter-service."
 
 It maintains a web page with a counter for the number of POST requests it has served and return it for every GET request it gets.
 
+Tooling:
+AWS ECR
+AWS EC2
+Docker
+Sonar Cloud
+Synk
+GitHub Actions
+
+App dependencies:
+Flask==3.0.2
+gunicorn==21.2.0
+
 --------------------------------------------------------------------
-Detailed pipeline overview here: [Medium](https://medium.com/devops-technical-notes-and-manuals/devops-example-project-for-your-resume-198e34d874b4?source=friends_link&sk=235864c3d1599f2578b4ca384733810e).
 
 ---------------------------------------------------------------------
 ### Building and running your application
