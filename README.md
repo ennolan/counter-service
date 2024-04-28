@@ -4,20 +4,28 @@ The repo for the counter service Python app.
 Python service called "counter-service."
 
 It maintains a web page with a counter for the number of POST requests it has served and return it for every GET request it gets.
-
+#
 Tooling:
-AWS ECR
-AWS EC2
-Docker
-Sonar Cloud
-Synk
-GitHub Actions
 
+AWS ECR
+
+AWS EC2
+
+Docker
+
+Sonar Cloud
+
+Synk
+
+GitHub Actions
+#
 App dependencies:
+
 Flask==3.0.2
+
 gunicorn==21.2.0
 
---------------------------------------------------------------------
+---------------------------------------------------------------------
 
 ---------------------------------------------------------------------
 ### Building and running your application
